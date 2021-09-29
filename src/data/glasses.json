@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Lentes del sol Rojos con azul. Croma rojo",
+        "img": [10],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 2,
+        "name": "Lentes de sol Negro Croma verde y violeta",
+        "img": [11],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 3,
+        "name": "Lentes de sol Negro. Croma azul",
+        "img": [12],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 4,
+        "name": "Lentes de sol Negro. Croma verde",
+        "img": [13],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 5,
+        "name": "Lentes de sol Azul. Croma cian",
+        "img": [14],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 6,
+        "name": "Lentes de sol Negro. Croma azul",
+        "img": [15],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 7,
+        "name": "Lentes de sol estilo madera. Croma violeta",
+        "img": [16],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 8,
+        "name": "Lentes de sol rosa. Croma multicolor",
+        "img": [17],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    },
+    {
+        "id": 9,
+        "name": "Lentes de sol cian y blanco. Croma naranja",
+        "img": [18],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 2
+    }
+]

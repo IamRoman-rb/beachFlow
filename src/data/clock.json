@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "Reloj Azul, rojo y blanco",
+        "img": [28],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 2,
+        "name": "Reloj lacoste blanco",
+        "img": [29],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 3,
+        "name": "Reloj Tag heuer negro",
+        "img": [30],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 4,
+        "name": "Reloj lacoste blanco",
+        "img": [31],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 5,
+        "name": "Reloj lacoste gris metalizado, con blanco",
+        "img": [32],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 6,
+        "name": "Reloj lacoste gris metalizado, con azul",
+        "img": [33],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 7,
+        "name": "Reloj lacoste azul, con gris metalizado",
+        "img": [34],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 8,
+        "name": "Reloj lacoste azul",
+        "img": [35],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    },
+    {
+        "id": 9,
+        "name": "Reloj lacoste verde",
+        "img": [36],
+        "price": 3000,
+        "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+        "category": 4
+    }
+]

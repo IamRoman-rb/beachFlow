@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head") %> 
+<body>
+    <%- include("../partials/header") %>
+    <main id="register">
+        <section id="sing-up">
+            <article>
+                <figure>
+                    <img src="/assets/img/img-sing-up.jpg" alt="">
+                </figure>
+                <h1>SING-UP</h1>
+            </article>
+            <form action="">
+                <label>
+                    <i class="fas fa-user"></i><input type="text" class="input-float"></input><p class="placeholder">Name And Subname</p><span></span>
+                </label>
+                <label> 
+                    
+                    <i class="fas fa-envelope"></i><input type="email" class="input-float"></input><p class="placeholder">Email</p><span></span>
+                </label>
+                <label>
+                    
+                    <i class="fas fa-phone-alt"></i><input type="tel" class="input-float"> </input><p class="placeholder">Phone</p><span></span>
+                </label>
+                <label>
+                    
+                    <i class="fas fa-lock"></i><input type="password" class="password input-float"></input><p class="placeholder">Password</p><button type="button" class="btn-eye"><i class="fas fa-eye"></i></button>
+                </label>
+                <label>                    
+                    <i class="fas fa-lock"></i><input type="password" class="password input-float"></input><p class="placeholder">Repit Password</p><button type="button" class="btn-eye"><i class="fas fa-eye"></i></button>
+                </label>
+                <section id="button-register">
+                    <button type="submit">SING-UP</button>
+                </section>
+            </form>
+        </section>
+        <h2>If you already have an account <a href="/login">log in</a></h2>
+    </main>
+    <%- include("../partials/footer") %>  
+    <script src="/js/styles.js"></script>
+</body>
+</html>

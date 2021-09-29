@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+:root{
+    /* TIPEGRAFY */
+    --anton: 'Anton', sans-serif;
+    --karla: 'Karla', sans-serif;
+
+    /* COLORS */
+
+    --primary-color: #ff5403;
+    --secundary-color: #2a496b;
+    --white: #ffff;
+    --green: #21bc56;
+    --black: #1d1d1d;
+    --pink: #ff91c6;
+    --blue: #008fff;
+    --yellow: #fff770;
+}

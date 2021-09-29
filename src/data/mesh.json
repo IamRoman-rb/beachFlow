@@ -1,0 +1,74 @@
+[
+        {
+            "id": 1,
+            "name": "Malla naranja con ojas estilo otoño",
+            "img": [19],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 2,
+            "name": "Malla blanca con estilo azul",
+            "img": [20],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 3,
+            "name": "Malla azul con tiburones",
+            "img": [21],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 4,
+            "name": "Malla Azul lisa",
+            "img": [22],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 5,
+            "name": "Malla celeste lisa",
+            "img": [23],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 6,
+            "name": "Malla rosa lisa",
+            "img": [24],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 7,
+            "name": "Malla rallada azul y blanca",
+            "img": [25],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 8,
+            "name": "Malla verde cuadrille",
+            "img": [26],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        },
+        {
+            "id": 9,
+            "name": "Malla colores varios",
+            "img": [27],
+            "price": 3000,
+            "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
+            "category": 1
+        }
+]

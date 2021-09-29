@@ -1,0 +1,85 @@
+footer{
+    width: 100%;
+    /* height: 20vh; */
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    box-shadow: 0 .1rem .5rem rgba(0, 0, 0, .3);
+}
+footer section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: .5rem 0;
+}
+footer section#redes i{
+    color: var(--primary-color);
+    padding: .5rem;
+    margin: 0 .5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
+    transition: all .5s ease-in-out;
+}
+footer section#redes i:hover{
+    color: var(--secundary-color);
+    border: 1px solid var(--secundary-color);
+}
+footer section#paymentMethods i{
+    color: var(--primary-color);
+    font-size: 1.5rem;
+    margin: 0 .5rem;
+}
+footer section#coments form{
+    width: 60%;
+}
+footer section#coments form label{
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem;
+    border: 1px solid var(--primary-color);
+    border-radius: 1rem;
+} 
+footer section#coments form input{
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+footer section#coments form button{
+    width: 10%;
+    height: 100%;
+    background-color: transparent;
+    color: var(--primary-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+footer section#coments form input::placeholder{
+    color: var(--primary-color);
+    font-family: var(--karla);
+}
+footer h1{
+    font-family: var(--anton);
+    font-size: 1rem;
+}
+@media screen and (min-width: 768px) {
+    footer section#coments form{
+        width: 40%;
+    }
+}
+@media screen and (min-width: 1200px) {
+    footer section{
+        width: 30%;
+        margin: 1rem 0;
+    }
+    footer section#paymentMethods i{
+        font-size: 2rem;
+    }
+    footer section#coments form{
+        width: 60%;
+    }
+}

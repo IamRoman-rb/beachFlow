@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+ <%- include("partials/head") %> 
+<body>
+    <%- include("partials/header") %>
+    <main>
+        <section id="banner">
+            <h1>SUN, BEACH AND SAND</h1>
+            <article id="wave" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-16.24,35.99 C135.00,-18.34 226.99,136.80 499.56,63.67 L505.21,158.55 L0.00,150.22 Z" style="stroke: none; fill: #ffff;"></path></svg></article>
+        </section>
+        <section id="filters">
+            <ul>
+                <li class="active" data-filter="all">All</li>
+                <li class="li" data-filter="glasses">Glasses</li>
+                <li class="li" data-filter="shirts">Shirts</li>
+                <li class="li" data-filter="mesh">Mesh</li>
+                <li class="li" data-filter="clocks">Clocks</li>
+            </ul>
+        </section>
+        <section id="products">
+            <% if (productos.length > 0) { %>
+                <% productos.forEach(producto => { %>
+                    <article class="product">
+                        <a href="/detail/<%= producto.id %>">
+                        <section class="info">
+                            <h2><%= producto.name %> </h2>
+                        </section>
+                        <figure>
+                            <img src="<%= producto.img[0].url %> " alt="">
+                        </figure>
+                        <section class="info">
+                            <h3><%= producto.price %> </h3>
+                            <i class="fas fa-shopping-cart"></i>
+                        </section>
+                    </a>
+                    </article>
+                <% }) %>
+            <% } %>
+        </section>
+    </main>
+    <%- include("partials/footer") %>  
+    <script src="/js/styles.js"></script>
+</body>
+</html>
