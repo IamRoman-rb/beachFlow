@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Camisa Negra con formas Poligonales",
         "img": [1],
-        "price": 3000,
+        "price": 2500,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Camisa Verde y Azul con palmeras",
         "img": [2],
-        "price": 3000,
+        "price": 3500,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Camisa Blanca con hojas de palmeras de colores varios",
         "img": [3],
-        "price": 3000,
+        "price": 3100,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Camisa Blanca con hojas de palmeras azules",
         "img": [4],
-        "price": 3000,
+        "price": 4350,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Camisa con diseño playero",
         "img": [5],
-        "price": 3000,
+        "price": 1200,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
@@ -43,23 +43,23 @@
         "id": 6,
         "name": "Camisa Blanca con difuminado Cian",
         "img": [6],
-        "price": 3000,
+        "price": 2050,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
     {
         "id": 7,
-        "name": "Camisa Negra con con hojas de palmeras de colores varios",
+        "name": "Camisa Rosa con palmeras",
         "img": [7],
-        "price": 3000,
+        "price": 3130,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
     {
         "id": 8,
-        "name": "Camisa Rosa con palmeras",
+        "name": "Camisa Negra con Flores y Hojas",
         "img": [8],
-        "price": 3000,
+        "price": 4400,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "name": "Camisa Amarilla estilo hawai",
         "img": [9],
-        "price": 3000,
+        "price": 4000,
         "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim inventore tenetur saepe accusamus qui repellendus consequatur facere rem voluptas, esse eius fugiat quasi minima quis nostrum. Voluptates porro iusto non.",
         "category": 3
     }
