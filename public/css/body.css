@@ -21,6 +21,7 @@ body{
     --pink: #ff91c6;
     --blue: #008fff;
     --yellow: #fff770;
+    --grey: #ccc;
 }
 body::-webkit-scrollbar{
     width: .6rem;

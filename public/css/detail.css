@@ -10,11 +10,12 @@ main#detail article#product-detail{
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
-    position: relative;
     margin: 1rem 0;
     padding: .5rem;
-    overflow: hidden;
-    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .2);
+    background-image: url("/assets/img/fondo-detalle-producto.jpg");
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 .3rem .5rem rgba(0, 0, 0, .2);
 }
 main#detail article#product-detail h1{
     font-size: 1.2rem;
@@ -25,44 +26,28 @@ main#detail article#product-detail h1{
 main#detail article#product-detail figure{
     width: 100%;
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
 }
 main#detail article#product-detail figure img{
     width: 50%;
-    min-height: 50vh;
+    min-height: 45vh;
     max-height: 70vh;
     z-index: 2;
 }
-main#detail article#product-detail span{
-    width: 100%;
-    height: 100%;
-    background-color: var(--black);
-    position: absolute;
-    right: -30%;
-    bottom: -25%;
-    transform: rotate(-50deg);
-}
 main#detail article#product-detail section#info{
-    width: 50%;
-    height: 60%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items: center;
     flex-flow: row wrap;
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    margin: .5rem 0 0 0;
+    margin: .5rem;
     padding: 1rem;
+    background-color: rgba(112, 112, 112, 0.1);
 }
 main#detail article#product-detail section#info p{
-    width: 80%;
-    display: flex;
-    justify-content: center;
     font-family: var(--karla);
     color: var(--white);
-    font-size: 60%;
+    font-size: 1.2rem;
 }
 main#detail article#product-detail section#info section#icons{
     width: 90%;
@@ -72,7 +57,7 @@ main#detail article#product-detail section#info section#icons{
 main#detail article#product-detail section#info section#icons i, h3{
     color: var(--white);
     margin: 0 .5rem;
-    font-size: 1rem;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
@@ -83,30 +68,26 @@ main#detail article#product-detail section#info h2{
     display: none;
 }
 @media screen and (min-width: 768px) {
-    main#detail article#product-detail span{
-        right: 0;
-        left: -35%;
-        bottom: -5%;
-        transform: rotate(60deg);
+    main#detail article#product-detail{
+        justify-content: space-between;
     }
     main#detail article#product-detail h1{
         display: none;
     }
     main#detail article#product-detail figure{
-        justify-content: flex-end;
+        width: 40%;
+        justify-content: center;
     }
     main#detail article#product-detail figure img{
-        width: 45%;
+        width: 60%;
     }
     main#detail article#product-detail section#info{
-        height: 70%;
-        left: 0;
-        bottom: 5%;
+        width: 50%;
+        justify-content: space-between;
         align-items: center;
     }
     main#detail article#product-detail section#info p{
         font-size: 100%;
-        filter: invert(1);
     }
     main#detail article#product-detail section#info section#icons{
         width: 80%;
@@ -121,27 +102,22 @@ main#detail article#product-detail section#info h2{
     }
 }
 @media screen and (min-width: 1200px) {
-    main#detail article#product-detail span{
-        width: 90%;
-        height: 100%;
-        top: -40%;
-        left: -15%;
-        transform: rotate(150deg);
-    }
-    main#detail article#product-detail figure img{
-        width: 40%;
+    main#detail article#product-detail{
+        padding: 0;
     }
     main#detail article#product-detail section#info{
-        width: 50%;
-        height: 70%;
-        top: 0;
-        left: 0;
-        bottom: 0;
+        margin: 0;
+    }
+    main#detail article#product-detail figure{
+        padding: 1.5rem;
+    }
+    main#detail article#product-detail figure img{
+        width: 70%;
     }
     main#detail article#product-detail section#info p{
-        font-size: 130%;
+        font-size: 1.5rem;
     }
     main#detail article#product-detail section#info section#icons i, h3{
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
 }
