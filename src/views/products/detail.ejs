@@ -6,17 +6,17 @@
     <main id="detail">
         <article id="product-detail">
             <span id="circle"></span>
-                <h1>Camisa</h1>
+                <h1><%= producto.name %></h1>
             <figure>
-                <img src="/assets/img/Camisa 1.jpg" alt="" />
+                <img src="<%= producto.img[0].url %>" alt="" />
             </figure>
             <section id="info">
-                <h2>Camisa</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque id perspiciatis, error aliquid ipsum quae, eveniet placeat qui nemo magni sequi ratione. Illo incidunt optio sequi qui officia porro dolorum.</p>
+                <h2><%= producto.name %></h2>
+                <p><%= producto.info %> </p>
                 <section id="icons">
                     <i class="fas fa-dollar-sign"></i>
                     <i class="fas fa-shopping-cart"></i>
-                    <h3>3000</h3>
+                    <h3><%= producto.price %></h3>
                 </section>
             </section>
         </article>

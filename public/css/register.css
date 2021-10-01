@@ -25,6 +25,7 @@ main#register section#sing-up article figure{
 }
 main#register section#sing-up article img{
     width: 100%;
+    max-height: 70vh;
 }
 main#register section#sing-up article h1{
     position: absolute;

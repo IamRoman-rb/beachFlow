@@ -10,7 +10,7 @@
         </section>
         <section id="filters">
             <ul>
-                <li class="active" data-filter="all">All</li>
+                <li class="li selected" data-filter="all">All</li>
                 <li class="li" data-filter="glasses">Glasses</li>
                 <li class="li" data-filter="shirts">Shirts</li>
                 <li class="li" data-filter="mesh">Mesh</li>
@@ -21,7 +21,7 @@
             <% if (productos.length > 0) { %>
                 <% productos.forEach(producto => { %>
                     <article class="product">
-                        <a href="/detail/<%= producto.id %>">
+                        <a href="/detail/<%= producto.category %>/<%= producto.id %>">
                         <section class="info">
                             <h2><%= producto.name %> </h2>
                         </section>

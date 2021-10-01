@@ -43,9 +43,14 @@ btnEye.forEach((btn, index) => btn.addEventListener("click", e => {
 
 const li = document.querySelectorAll(".li");
 
-li.addEventListener("click", e => {
-    li.classList.add("active")
-})
+function activeLink(){
+    li.forEach((item) => 
+    item.classList.remove("selected"));
+    this.classList.add("selected");
+} 
+li.forEach((item) => 
+    item.addEventListener("click", activeLink)
+)
 
 window.addEventListener("scroll", e => {
     const scroll = document.scrollingElement.scrollTop;

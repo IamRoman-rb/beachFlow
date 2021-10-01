@@ -17,9 +17,10 @@ main#detail article#product-detail{
     box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .2);
 }
 main#detail article#product-detail h1{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-family: var(--anton);
     color: var(--secundary-color);
+    z-index: 2;
 }
 main#detail article#product-detail figure{
     width: 100%;
@@ -29,6 +30,8 @@ main#detail article#product-detail figure{
 }
 main#detail article#product-detail figure img{
     width: 50%;
+    min-height: 50vh;
+    max-height: 70vh;
     z-index: 2;
 }
 main#detail article#product-detail span{
@@ -36,12 +39,12 @@ main#detail article#product-detail span{
     height: 100%;
     background-color: var(--black);
     position: absolute;
-    border-radius: 50%;
     right: -30%;
-    bottom: -40%;
+    bottom: -25%;
+    transform: rotate(-50deg);
 }
 main#detail article#product-detail section#info{
-    width: 60%;
+    width: 50%;
     height: 60%;
     display: flex;
     justify-content: center;
@@ -82,8 +85,9 @@ main#detail article#product-detail section#info h2{
 @media screen and (min-width: 768px) {
     main#detail article#product-detail span{
         right: 0;
-        left: -30%;
+        left: -35%;
         bottom: -5%;
+        transform: rotate(60deg);
     }
     main#detail article#product-detail h1{
         display: none;
@@ -95,13 +99,14 @@ main#detail article#product-detail section#info h2{
         width: 45%;
     }
     main#detail article#product-detail section#info{
-        height: 80%;
+        height: 70%;
         left: 0;
         bottom: 5%;
         align-items: center;
     }
     main#detail article#product-detail section#info p{
         font-size: 100%;
+        filter: invert(1);
     }
     main#detail article#product-detail section#info section#icons{
         width: 80%;
@@ -119,13 +124,12 @@ main#detail article#product-detail section#info h2{
     main#detail article#product-detail span{
         width: 90%;
         height: 100%;
-    }
-    main#detail article#product-detail span{
-        top: -20%;
-        bottom: 0;
+        top: -40%;
+        left: -15%;
+        transform: rotate(150deg);
     }
     main#detail article#product-detail figure img{
-        width: 50%;
+        width: 40%;
     }
     main#detail article#product-detail section#info{
         width: 50%;

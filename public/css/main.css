@@ -55,10 +55,7 @@ section#filters ul li{
     cursor: pointer;
     transition: all .5s ease-in-out;
 }
-section#filters ul li.active{
-    background-color: var(--secundary-color);
-}
-section#filters ul li:hover{
+section#filters ul li.selected{
     background-color: var(--secundary-color);
 }
 section#products{

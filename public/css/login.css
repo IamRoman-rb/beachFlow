@@ -25,6 +25,7 @@ main#login section#section-login article figure{
 }
 main#login section#section-login article img{
     width: 100%;
+    max-height: 70vh;
 }
 main#login section#section-login article h1{
     position: absolute;

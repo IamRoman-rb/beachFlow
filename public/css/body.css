@@ -22,3 +22,11 @@ body{
     --blue: #008fff;
     --yellow: #fff770;
 }
+body::-webkit-scrollbar{
+    width: .6rem;
+    background-color: transparent;
+  }
+  body::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+  }
