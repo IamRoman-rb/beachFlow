@@ -26,8 +26,15 @@ body{
 body::-webkit-scrollbar{
     width: .6rem;
     background-color: transparent;
-  }
-  body::-webkit-scrollbar-thumb{
+}
+body::-webkit-scrollbar-thumb{
     background-color: var(--primary-color);
     border-radius: 1rem;
-  }
+}
+h1::selection, h2::selection, h3::selection, h4::selection, h5::selection, p::selection, i::selection, i::selection, a::selection{
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+img::selection{
+    background-color: transparent;
+}

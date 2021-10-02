@@ -18,11 +18,27 @@ const controller = {
         if (req.params.category == 4) {
             producto = clockModel.oneWithExtras(req.params.id);
         }
-        return res.render("products/detail", {producto: producto});
+        // let productos = [];
+        // let shirts = shirtsModel.allWithExtras();
+        // let glasses = glassesModel.allWithExtras();
+        // let mesh = meshModel.allWithExtras();
+        // let clock = clockModel.allWithExtras();
+        // productos.push(...shirts);
+        // productos.push(...glasses);
+        // productos.push(...mesh);
+        // productos.push(...clock);
+        return res.render("products/detail", {
+            producto: producto,
+            // productos: productos,
+            title: "Beach Flow | Detail"
+        });
     },
     cart: (req, res) => {
         let producto = [];
-        return res.render("products/cart", {producto: producto});
+        return res.render("products/cart", {
+            producto: producto,
+            title: "Beach Flow | Cart"
+        });
     }
 }
 module.exports = controller;

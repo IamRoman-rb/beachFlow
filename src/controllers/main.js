@@ -14,8 +14,10 @@ const controller = {
         productos.push(...glasses);
         productos.push(...mesh);
         productos.push(...clock);
-        // return res.send(productos)
-        return res.render("index", {productos: productos})
+        return res.render("index", {
+            productos: productos,
+            title: "Beach Flow | Home"
+        })
     }
 }
 module.exports = controller

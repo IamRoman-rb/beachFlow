@@ -53,6 +53,7 @@ main#detail article#product-detail section#info section#icons{
     width: 90%;
     display: flex;
     justify-content: flex-end;
+    margin: 1rem 0;
 }
 main#detail article#product-detail section#info section#icons i, h3{
     color: var(--white);
@@ -66,6 +67,136 @@ main#detail article#product-detail section#info section#icons i:hover{
 }
 main#detail article#product-detail section#info h2{
     display: none;
+}
+main#detail section#options{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+main#detail section#options article.cardProduct{
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    width: 40%;
+    background-color: rgba(250, 250, 250, .8);
+    margin: .5rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+section#options article.cardProduct:hover{
+    transform: scale3d(1.2);
+    box-shadow: 0 .3rem .5rem  rgba(0, 0, 0, .3);
+}
+main#detail section#options article.cardProduct figure{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+main#detail section#options article.cardProduct figure img{
+    width: 50%;
+}
+main#detail section#options article.cardProduct section.infoCard{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+} 
+main#detail section#options article.cardProduct section.infoCard h4, section.infoCard h5, section.infoCard i.fa-shopping-cart{
+    opacity: 0;
+    visibility: hidden;
+    transition: all .5s ease-in-out;
+} 
+main#detail section#options article.cardProduct section.infoCard h4{
+    font-size: .8rem;
+    font-family: var(--anton);
+    color: var(--secundary-color);
+    transform: translateY(-1rem);
+    transition: all .5s ease-in-out;
+}
+main#detail section#options article.cardProduct section.infoCard h5{
+    font-size: .8rem;
+    font-family: var(--karla);
+    color: var(--secundary-color);
+    transform: translateY(1rem);
+    transition: all .5s ease-in-out;
+}
+main#detail section#options article.cardProduct section.infoCard i.fa-shopping-cart{
+    color: var(--primary-color);
+    font-size: 1.3rem;
+    transform: translateY(1rem);
+    transition: all .5s ease-in-out;
+}
+main#detail section#options article.cardProduct:hover section.infoCard h4{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+main#detail section#options article.cardProduct:hover section.infoCard h5, section#options article.cardProduct:hover section.infoCard i.fa-shopping-cart{
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+main#detail section#comments{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 1rem 0;
+}
+main#detail section#comments form{
+    width: 100%;
+}
+main#detail section#comments form label{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: row wrap;
+}
+main#detail section#comments form textarea{
+    width: 100%;
+    text-align: center;
+    font-family: var(--karla);
+    color: var(--primary-color);
+    box-shadow: 0 .2rem .5rem rgba(0, 0, 0, .2);
+    border: none;
+    outline: none;
+    resize: none;
+}
+main#detail section#comments form textarea::placeholder{
+    color: var(--primary-color);
+}
+main#detail section#comments form button{
+    background-color: var(--primary-color);
+    color: var(--white);
+    border: 1px solid var(--primary-color);
+    border-radius: .2rem;
+    cursor: pointer;
+    transition: all .5s ease;
+}
+main#detail section#comments form button:hover{
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+main#detail section#comments section#userComments{
+    width: 100%;
+    margin: 1rem 0;
+}
+main#detail section#comments section#userComments article.comment h1{
+    color: var(--secundary-color);
+    font-family: var(--anton);
+}
+main#detail section#comments section#userComments article.comment i{
+    color: var(--primary-color);
+    cursor: pointer;
+    transition: all .3s ease;
+}
+main#detail section#comments section#userComments article.comment i:hover{
+    color: var(--secundary-color);
+}
+main#detail section#comments section#userComments article.comment p{
+    font-family: var(--karla);
 }
 @media screen and (min-width: 768px) {
     main#detail article#product-detail{
@@ -100,6 +231,20 @@ main#detail article#product-detail section#info h2{
         font-family: var(--anton);
         color: var(--primary-color);
     }
+    section#options article.cardProduct{
+        width: 30%;
+    }
+    main#detail section#comments{
+        align-items: flex-start;
+    }
+    main#detail section#comments form{
+        width: 45%;
+        margin: 0 .5rem;
+    }
+    main#detail section#comments section#userComments{
+        width: 45%;
+        margin: 0 .5rem;
+    }
 }
 @media screen and (min-width: 1200px) {
     main#detail article#product-detail{
@@ -119,5 +264,14 @@ main#detail article#product-detail section#info h2{
     }
     main#detail article#product-detail section#info section#icons i, h3{
         font-size: 2rem;
+    }
+    main#detail section#options article.cardProduct{
+        width: 20%;
+    }
+    main#detail section#options article.cardProduct figure img{
+        width: 40%;
+    }
+    main#detail section#options article.cardProduct section.infoCard h4, section.infoCard h5, section.infoCard i.fa-shopping-cart{
+        font-size: 1.3rem;
     }
 }

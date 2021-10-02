@@ -55,7 +55,7 @@ main#login section#section-login form label{
 }
 main#login section#section-login form label p{
     position: absolute;
-    left: 10%;
+    left: 15%;
     pointer-events: none;
     color: var(--primary-color);
     font-family: var(--karla);

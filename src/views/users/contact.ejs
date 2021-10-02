@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include("../partials/head") %>
+<body>
+    <%- include("../partials/header") %>
+
+    <main id="contact">
+        <article>
+            <figure><img src="/assets/img/img-message.jpg" alt=""><h1>Message</h1></figure>
+            <form action="">
+                <label for="">
+                    <i class="fas fa-user"></i><input type="text" class="input-float"><p class="placeholder">Name</p>
+                </label>
+                <label for="">
+                    <i class="fas fa-envelope"></i><input type="email" class="input-float"><p class="placeholder">Email</p>
+                </label>
+                <textarea></textarea>
+                <section id="buttonMessage">
+                    <button type="submit">Submit</button>
+                </section>
+            </form>
+        </article>
+    </main>
+    <%- include("../partials/footer") %>
+    <script src="/js/styles.js"></script>
+</body>
+</html>
