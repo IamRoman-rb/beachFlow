@@ -11,6 +11,7 @@ cancelButton.addEventListener("click", e => {
 
 const inputs = document.querySelectorAll(".input-float");
 const p = document.querySelectorAll(".placeholder");
+const button = document.querySelector("#button");
 
 inputs.forEach((input) => {
     input.addEventListener("blur", (e) => {
@@ -61,6 +62,14 @@ window.addEventListener("scroll", e => {
     else{
         header.classList.remove("headerSolid");
     }
-    console.clear();
-    console.log(scroll)
 })
+
+//Pre-Loader
+const preLoader = document.querySelector("#pre-loader");
+window.addEventListener("load", e => {
+    setTimeout(() => {
+        preLoader.style.opacity = "0";
+        preLoader.style.zIndex = "-1"    
+    },
+        2000)
+});

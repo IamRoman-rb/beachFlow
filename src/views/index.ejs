@@ -2,6 +2,9 @@
 <html lang="en">
  <%- include("partials/head") %> 
 <body>
+    <article id="pre-loader">
+        <h2>Loading</h2><span></span><span></span><span></span>
+    </article>
     <%- include("partials/header") %>
     <main>
         <section id="banner">
@@ -39,6 +42,8 @@
         </section>
     </main>
     <%- include("partials/footer") %>  
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
     <script src="/js/styles.js"></script>
+    <script src="/js/sweetAlert.js"></script>
 </body>
 </html>
