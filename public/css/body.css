@@ -70,7 +70,7 @@ article#pre-loader span{
 }
 article#pre-loader h2::selection{
     background-color: transparent;
-    color: transparent;
+    color: var(--blue);
 }
 article#pre-loader span:nth-child(1){
     animation-delay: .1s;
